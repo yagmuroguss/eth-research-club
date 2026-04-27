@@ -1,0 +1,28 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* BLOCK DESIGN */
+.main-box {
+  width: 80vw;
+  height: 80vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+/* LINK STYLE */
+.link-unit {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  letter-spacing: 2px;
+  transition: 0.3s;
+}
