@@ -1,4 +1,5 @@
 import "./components.css"
+import logoeth from '../assets/logoeth.png';
 
 export default function Block() {
   const linklist = [
@@ -23,13 +24,19 @@ export default function Block() {
             {element.name}
           </a>
         ))}
-
-        <div className="advertising-main">
-            <h2>Explain. Question. Create.</h2>
-            <p>A student-led research community driven by transforming curiosity into evidence-based work.</p>
-            <button>BECOME A MEMBER</button>
         </div>
+
+      <div className="advertising-main">
+          <h2>
+            <h2>
+              <span style={{display: 'block', marginLeft: '5%'}}>Create.</span>
+              <span style={{display: 'block', marginLeft: '36%'}}>Explain.</span>
+              <span style={{display: 'block', marginLeft: '55%'}}>Question.</span>
+            </h2>
+          </h2>
+          <button>BECOME A MEMBER</button>
+          <p>A student-led research community driven by transforming curiosity into evidence-based work.</p>
       </div>
-    </div>
+  </div>
   );
 }
