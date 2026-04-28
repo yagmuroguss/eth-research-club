@@ -4,7 +4,7 @@ html {
 
 @font-face {
   font-family: 'Orbitron';
-  src: url('../assets/Orbitron-Regular.otf') format('opentype');
+  src: url('../assets/Orbitron-Regular.ttf') format('opentype');
   font-weight: 600;
 }
 
@@ -79,7 +79,7 @@ html {
 }
 
 .advertising-main button {
-  font-family: 'Conthrax', sans-serif;
+  font-family: 'Orbitron', sans-serif;
   color: white;
   background-color:transparent;
   display: block;
@@ -94,13 +94,13 @@ html {
 
 /* FOR PART ABOUT */
 section#about{
-  font-family: 'Conthrax', sans-serif;
+  font-family: 'Orbitron', sans-serif;
   display: flex;
   flex-wrap: wrap;
 
 }
 section#about h1 {
-  font-family: 'Conthrax', sans-serif;
+  font-family: 'Orbitron', sans-serif;
   width: 100%;
 }
 .block-about {
@@ -131,7 +131,7 @@ section#events h1 {
   align-text: center;
   margin-top: 5%;
   margin-left: 2%;
-  font-family: 'Conthrax', sans-serif;
+  font-family: 'Orbitron';
   color: white;
 }
 
