@@ -18,6 +18,12 @@ html {
   gap: 20px;
 }
 
+.main-button {
+  padding: 5px;
+  background-color: white;
+  color: black;
+}
+
 /* LINK STYLE */
 .link-unit {
   color: white;

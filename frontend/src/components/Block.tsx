@@ -27,7 +27,7 @@ export default function Block() {
         <div className="advertising-main">
             <h2>Explain. Question. Create.</h2>
             <p>A student-led research community driven by transforming curiosity into evidence-based work.</p>
-            <button>BECOME A MEMBER</button>
+            <button className="main-button">BECOME A MEMBER</button>
         </div>
       </div>
     </div>
