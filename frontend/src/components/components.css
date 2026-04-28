@@ -42,7 +42,6 @@ body {
   text-decoration: underline;
 }
 
-
 .link-unit:hover {
   transform: scale(1.06);
 }
@@ -119,7 +118,6 @@ section#about h1 {
 }
 
 /* FOR EVENTS */
-
 section#events {
   
 }
@@ -134,7 +132,7 @@ section#events h1 {
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
-  align-text: center;
+  text-align: center;
   margin-top: 5%;
   margin-left: 2%;
   font-family: 'Conthrax', sans-serif;
