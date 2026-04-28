@@ -2,20 +2,49 @@ html {
   scroll-behavior: smooth;
 }
 
+@font-face {
+  font-family: 'Orbitron';
+  src: url('../assets/Orbitron-Regular.otf') format('opentype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Conthrax';
+  src: url('../assets/Conthrax-SemiBold.otf') format('opentype');
+  font-weight: 600;
+}
+
 /* BLOCK DESIGN */
 .main-box {
   width: 80vw;
   height: 80vh;
   background-color: black;
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
   border-radius: 20px;
+  position: relative;
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(..\assets\1777210399232-70ad474d-0f0b-4a8d-98f5-b9a210152ede.jpeg);
+  background-size: cover;
+  background-position: center;
+  font-family: 'Orbitron';
 }
 
 .links {
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  justify-content: flex-end;
+  padding : 1%;
+  margin-right: 3%;
+  margin-top: 1%;
+  gap: 1.7%;
+  width: 100%;
+  flex-wrap: wrap;
+  text-decoration: underline;
+}
+
+
+.link-unit:hover {
+  transform: scale(1.06);
 }
 
 .main-button {
@@ -31,4 +60,108 @@ html {
   font-size: 18px;
   letter-spacing: 2px;
   transition: 0.3s;
+}
+
+.advertising-main{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  
+}
+.advertising-main h2 {
+  font-size: 210%;
+  font-family: 'Orbitron';
+}
+
+.advertising-main p {
+  color: white;
+  font-size: 80%;
+  line-height: 80%;
+  white-space: nowrap;
+  margin-top: auto;
+  margin-bottom: 2%;
+  margin-left: 2%;
+}
+
+.advertising-main button {
+  font-family: 'Conthrax', sans-serif;
+  color: white;
+  background-color:transparent;
+  display: block;
+  padding: 0.8%;
+  margin: 0 5%;
+  margin-top : 7%;
+}
+
+.advertising-main button:hover {
+  font-size: 76%;
+}
+
+/* FOR PART ABOUT */
+section#about{
+  font-family: 'Conthrax', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+section#about h1 {
+  font-family: 'Conthrax', sans-serif;
+  width: 100%;
+}
+.block-about {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 5%;
+  align-items: center;
+  margin-left : 6%;
+}
+
+/* FOR EVENTS */
+
+section#events {
+  
+}
+
+section#events h1 {
+  width : 100%;
+  
+}
+
+.events {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  align-text: center;
+  margin-top: 5%;
+  margin-left: 2%;
+  font-family: 'Conthrax', sans-serif;
+  color: white;
+}
+
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0%;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.news-grid img {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 40%;
+  border-radius: 3%;
+  box-shadow: 0 10em 30em rgba(0,0,0,0.3);
+  object-fit: cover;
+  filter: brightness(0.8) contrast(1.05);
+  transition: transform 0.3s;
+}
+
+.news-grid img:hover {
+  transform: scale(1.06);
 }
