@@ -35,7 +35,7 @@ export default function Block() {
             </h2>
           </h2>
           <button>BECOME A MEMBER</button>
-          {/* <p>A student-led research community driven by transforming curiosity into evidence-based work.</p> */}
+          <p>A student-led research community driven by transforming curiosity into evidence-based work.</p>
       </div>
   </div>
   );
