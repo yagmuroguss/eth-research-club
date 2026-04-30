@@ -1,3 +1,4 @@
+import "./block.css"
 import "./components.css"
 import logoeth from '../assets/logoeth.png';
 
@@ -20,7 +21,6 @@ export default function Block() {
             key={element.name}
             href={element.link}
             className="link-unit">
-
             {element.name}
           </a>
         ))}

@@ -1,4 +1,5 @@
 import stonksy from '../assets/stonksy.webp';
+import "./about.css";
 
 export default function About() {
     return(

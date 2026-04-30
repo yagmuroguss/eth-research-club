@@ -9,7 +9,7 @@ import Contact from "../components/Contact"
 
 export default function Home() {
   return (
-    <div>
+    <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
         <Block />
 
         <About />
