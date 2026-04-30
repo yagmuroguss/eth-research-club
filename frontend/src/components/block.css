@@ -1,0 +1,44 @@
+.main-box {
+  width: 100vw;
+  height: 100dvh;
+  max-width: 100%;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 20px;
+  position: relative;
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(..\assets\1777210399232-70ad474d-0f0b-4a8d-98f5-b9a210152ede.jpeg);
+  background-size: cover;
+  background-position: center;
+  font-family: 'Conthrax', sans-serif;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding : 1%;
+  margin-top: 1%;
+  gap: 1.7%;
+  width: 70%;
+  flex-wrap: wrap;
+  text-decoration: underline;
+}
+
+.link-unit {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  letter-spacing: 2px;
+  transition: 0.5s;
+}
+
+.link-unit:hover {
+  transform: scale(0.3);
+}
+
+.main-button {
+  padding: 5px;
+  background-color: white;
+  color: black;
+}
