@@ -64,26 +64,6 @@
   color: white;
 }
 
-/* FOR PART ABOUT */
-section#about{
-  font-family: 'Conthrax', sans-serif;
-  display: flex;
-  flex-wrap: wrap;
-
-}
-section#about h1 {
-  font-family: 'Conthrax', sans-serif;
-  width: 100%;
-}
-.block-about {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  gap: 5%;
-  align-items: center;
-  margin-left : 6%;
-}
-
 /* FOR EVENTS */
 section#events {
   
@@ -91,7 +71,6 @@ section#events {
 
 section#events h1 {
   width : 100%;
-  
 }
 
 .events {

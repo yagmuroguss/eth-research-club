@@ -16,15 +16,17 @@ export default function Home() {
 
         <Events />
 
-        <Fields />
+        <div>
+          <Fields />
 
-        <Researchers />
+          <Researchers />
 
-        <Advisors />
+          <Advisors />
 
-        <FAQs />
+          <FAQs />
 
-        <Contact />
+          <Contact />
+        </div>
 
     </div>
   );
