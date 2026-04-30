@@ -1,11 +1,10 @@
 html {
   scroll-behavior: smooth;
 }
-
-@font-face {
-  font-family: 'Orbitron';
-  src: url('../assets/Orbitron-Regular.ttf') format('opentype');
-  font-weight: 600;
+body {
+  background: black;
+  margin: 0;
+  padding: 0;
 }
 
 @font-face {
@@ -16,8 +15,9 @@ html {
 
 /* BLOCK DESIGN */
 .main-box {
-  width: 80vw;
-  height: 80vh;
+  width: 100vw;
+  height: 100dvh;
+  max-width: 100%;
   background-color: black;
   display: flex;
   flex-wrap: wrap;
@@ -26,7 +26,7 @@ html {
   background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(..\assets\1777210399232-70ad474d-0f0b-4a8d-98f5-b9a210152ede.jpeg);
   background-size: cover;
   background-position: center;
-  font-family: 'Orbitron';
+  font-family: 'Conthrax', sans-serif;
 }
 
 .links {
@@ -34,7 +34,7 @@ html {
   flex-direction: row;
   justify-content: flex-end;
   padding : 1%;
-  margin-right: 3%;
+  justify-content: center;
   margin-top: 1%;
   gap: 1.7%;
   width: 100%;
@@ -71,7 +71,7 @@ html {
 }
 .advertising-main h2 {
   font-size: 210%;
-  font-family: 'Orbitron';
+  font-family: 'Conthrax', sans-serif;
 }
 
 .advertising-main p {
@@ -85,28 +85,28 @@ html {
 }
 
 .advertising-main button {
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'Conthrax', sans-serif;
   color: white;
   background-color:transparent;
   display: block;
-  padding: 0.8%;
-  margin: 0 5%;
+  padding: 3%;
+  margin-left: 15%;
   margin-top : 7%;
 }
 
 .advertising-main button:hover {
-  font-size: 76%;
+  box-shadow: 0 4em 12em rgba(0, 0, 0, 0.15);
 }
 
 /* FOR PART ABOUT */
 section#about{
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'Conthrax', sans-serif;
   display: flex;
   flex-wrap: wrap;
 
 }
 section#about h1 {
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'Conthrax', sans-serif;
   width: 100%;
 }
 .block-about {
@@ -137,7 +137,7 @@ section#events h1 {
   align-text: center;
   margin-top: 5%;
   margin-left: 2%;
-  font-family: 'Orbitron';
+  font-family: 'Conthrax', sans-serif;
   color: white;
 }
 
