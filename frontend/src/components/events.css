@@ -1,0 +1,27 @@
+.events-block {
+    width: 74vw;
+    margin-top: 10%;
+    background-color: rgb(99, 20, 20);
+}
+
+.news-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2%;
+}
+
+.news-grid img {
+    width: 100%;
+    height: 200%;
+}
+
+.events {
+    background-color: black;
+}
+
+@media (max-width: 768px) {
+  .news-grid {
+    grid-template-columns: 1fr;
+  }
+}
+

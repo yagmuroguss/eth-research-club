@@ -4,18 +4,19 @@ import logoeth from '../assets/logoeth.png';
 
 export default function Block() {
   const linklist = [
-    { name: "ABOUT", link: "#about" },
-    { name: "EVENTS", link: "#events" },
-    { name: "FIELDS", link: "#fields" },
-    { name: "STUDENT RESEARCHERS", link: "#researchers" },
-    { name: "ADVISORS", link: "#advisors" },
+    { name: "About", link: "#about" },
+    { name: "Events", link: "#events" },
+    { name: "Fields", link: "#fields" },
+    { name: "Student Researchers", link: "#researchers" },
+    { name: "Advisors", link: "#advisors" },
     { name: "FAQs", link: "#faqs" },
-    { name: "CONTACT", link: "#contact" },
+    { name: "Contact", link: "#contact" },
   ];
 
   return (
-    <div className="main-box">
+    <div className="main-block">
       <div className="links">
+        <img src={logoeth} style={{width: '50px', marginRight: 'auto'}} />
         {linklist.map((element) => (
           <a
             key={element.name}
@@ -24,18 +25,16 @@ export default function Block() {
             {element.name}
           </a>
         ))}
-        </div>
+      </div>
 
-      <div className="advertising-main">
+      <div className="advertising-main" style={{marginTop: '35%'}}>
           <h2>
-            <h2>
-              <span style={{display: 'block', marginLeft: '5%'}}>Create.</span>
-              <span style={{display: 'block', marginLeft: '36%'}}>Explain.</span>
-              <span style={{display: 'block', marginLeft: '55%'}}>Question.</span>
-            </h2>
+            <span style={{display: 'block', marginLeft: '5%', fontSize: '2em'}}>Create.</span>
+            <span style={{display: 'block', marginLeft: '36%', fontSize: '2em'}}>Explain.</span>
+            <span style={{display: 'block', marginLeft: '55%', fontSize: '2em'}}>Question.</span>
           </h2>
-          <button>BECOME A MEMBER</button>
-          {/* <p>A student-led research community driven by transforming curiosity into evidence-based work.</p> */}
+          <p>A student-led research community driven by transforming curiosity into evidence-based work.</p>
+          <button className="member-button">Become a Member</button>
       </div>
   </div>
   );
