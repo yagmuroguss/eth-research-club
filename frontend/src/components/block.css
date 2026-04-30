@@ -1,5 +1,6 @@
 .main-box {
-  width: 90vw;
+  margin-top: 3%;
+  width: 95vw;
   height: 90dvh;
   max-width: 90%;
   display: flex;
@@ -21,7 +22,7 @@
   margin-bottom: 0%;
   margin-right: 3%;
   gap: 2%;
-  width: 80%;
+  width: 100%;
   flex-wrap: wrap;
   text-decoration: underline;
   align-items: flex-start;
@@ -32,10 +33,13 @@
   transform: scale(1.06);
 }
 
-.main-button {
-  padding: 5px;
-  background-color: white;
-  color: black;
+.advertising-main button {
+  background-color: transparent;
+  color: white;
+    font-family: 'Conthrax', sans-serif;
+    height: 5%;
+    width: 100%;
+    margin-left: 20%;
 }
 
 /* LINK STYLE */
@@ -57,6 +61,7 @@
 .advertising-main h2 {
   font-size: 210%;
   font-family: 'Conthrax', sans-serif;
+  color: white;
 }
 
 /* FOR PART ABOUT */
