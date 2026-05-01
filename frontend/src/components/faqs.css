@@ -1,0 +1,20 @@
+section#faqs {
+  gap: 5%;
+  align-items: center;
+  margin-top: 10%;
+  width: 74vw;
+  background-color: rgb(94, 12, 12);
+  color: white;
+  margin: 1vw;
+}
+.q-and-a {
+    
+}
+.faq-unit {
+    margin: 1vw;
+}
+
+.faq-unit p {
+    font-size: 1vw;
+    margin-bottom: 3vw;
+}

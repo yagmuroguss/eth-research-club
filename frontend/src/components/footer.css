@@ -1,0 +1,67 @@
+section#contact {
+    background-color: black;
+    color: white;
+    width: 74vw;
+    gap: 5%;
+    margin-bottom: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    align-items: center;
+    margin-top: 10%;
+    margin: 1vw;
+}
+.logos-newsletter {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.logos {
+    display : flex;
+    margin-bottom: 5vw;
+    gap: 1.4vw;
+}
+.logo-unit img {
+    width : 3vw;
+    height: 3vw;
+}
+.newsletter {
+    margin-top: -4vw;
+    margin-left: auto;
+}
+.newsletter-form input {
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    background: transparent;
+    color: white;
+    outline: none;
+}
+
+.newsletter-form button {
+    padding: 0.6rem 1.4rem;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 0;
+    font-size: 1rem;
+    cursor: pointer;
+    letter-spacing: 0.05em;
+}
+
+.newsletter-form button:hover {
+    background-color: white;
+    color: black;
+}
+
+.legalmentions a {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    color: white;
+    font-weight: normal;
+    font-size: 1vw;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-top: 5vw;
+}
