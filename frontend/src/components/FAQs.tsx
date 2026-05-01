@@ -14,7 +14,7 @@ const faq = [
 export default function FAQs() {
     return(
         <section id="faqs">
-            <h1>FAQs</h1>
+            <h2>FAQs</h2>
             <div className = "q-and-a">
                 {faq.map((faqunit) => (
                     <div className ="faq-unit" key ={faqunit.question}>
