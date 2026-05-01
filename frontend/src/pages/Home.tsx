@@ -5,7 +5,7 @@ import Fields from "../components/Fields"
 import Researchers from "../components/Researchers"
 import Advisors from "../components/Advisors"
 import FAQs from "../components/FAQs"
-import Contact from "../components/Contact"
+import Footer from "../components/Footer"
 
 export default function Home() {
   return (
@@ -25,7 +25,7 @@ export default function Home() {
 
           <FAQs />
 
-          <Contact />
+          <Footer />
         </div>
 
     </div>
