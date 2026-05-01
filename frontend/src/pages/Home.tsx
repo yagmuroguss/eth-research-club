@@ -11,22 +11,13 @@ export default function Home() {
   return (
     <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
         <Block />
-
         <About />
-
         <Events />
-
-        <div>
-          <Fields />
-
-          <Researchers />
-
-          <Advisors />
-
-          <FAQs />
-
-          <Footer />
-        </div>
+        <Fields />
+        <Researchers />
+        <Advisors />
+        <FAQs />
+        <Footer />
 
     </div>
   );

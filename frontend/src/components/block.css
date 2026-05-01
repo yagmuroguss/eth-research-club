@@ -1,6 +1,5 @@
 .main-block {
   width: 70vw;
-  background: rgb(144, 19, 19);
   padding-top: 5%;
   padding: 2%;
 }
@@ -35,7 +34,6 @@
 
 .advertising-main h2 {
   font-size: 210%;
-  font-family: 'Conthrax', sans-serif;
   color: white;
 }
 
@@ -56,7 +54,6 @@ section#events h1 {
   text-align: center;
   margin-top: 5%;
   margin-left: 2%;
-  font-family: 'Conthrax', sans-serif;
   color: white;
 }
 

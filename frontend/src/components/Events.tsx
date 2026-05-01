@@ -21,6 +21,7 @@ export default function Events() {
                             <img src={eventunit.img} alt={eventunit.name} />
                             <p>{eventunit.date}</p>
                             <p>{eventunit.desc}</p>
+                            <button><span>View Event</span></button>
                         </div>
                     ))}
                 </div>

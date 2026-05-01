@@ -7,7 +7,7 @@ export default function About() {
             <div className = "about-block">
                 <img src = {stonksy} alt = "about-picture"/>
                 <div className="inner-about-block">
-                    <h1>About</h1>
+                    <h2>About</h2>
                     <p>ABOUT US - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
                         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
                         nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
