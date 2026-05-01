@@ -21,8 +21,7 @@ export default function Researchers() {
 
     return(
         <section id="researchers">
-            <div className="researchers-box">
-                <h2 style={{color: 'white', textAlign: 'center'}}>Researchers</h2>
+            <h2 style={{color: 'white', textAlign: 'center', marginBottom: '3vw'}}>Researchers</h2>
                 <div className="researchers-filter">
                     <button className="research-button"><span>All</span></button>
                     <button className="research-button"><span>Field 1</span></button>
@@ -30,6 +29,7 @@ export default function Researchers() {
                     <button className="research-button"><span>Field 3</span></button>
                     <button className="research-button"><span>Field 4</span></button>
                 </div>
+            <div className="researchers-box">
                 <div className="team-members">
                     {researchers.map((students) => (
                         <div className="student-researchers">

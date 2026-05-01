@@ -1,0 +1,23 @@
+section#fields {
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 2% 0%;
+    text-align: center;
+}
+
+section#fields h2,section#fields p {
+    width: auto;
+    margin-top: 2vw;
+}
+
+.field-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.field-box img {
+    width: 20vw;
+}
+

@@ -16,8 +16,7 @@ export default function Advisors() {
 
     return(
         <section id="advisors">
-            <div className="advisors-box">
-                <h2 style={{color: 'white', textAlign: 'center'}}>Advisors</h2>
+            <h2 style={{color: 'white', textAlign: 'center', marginBottom : '3vw'}}>Advisors</h2>
                 <div className="advisors-filter">
                     <button><span>All</span></button>
                     <button><span>Field 1</span></button>
@@ -25,6 +24,7 @@ export default function Advisors() {
                     <button><span>Field 3</span></button>
                     <button><span>Field 4</span></button>
                 </div>
+            <div className="advisors-box">
                 <div className="club-advisors">
                     {researchers.map((advisor) => (
                         <div className="advisor-container">

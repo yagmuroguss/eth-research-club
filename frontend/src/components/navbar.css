@@ -2,30 +2,48 @@ html {
     scroll-behavior: smooth;
 }
 
+.navbar img {
+  position: absolute;
+  top: 13.2px;
+    left: 100px;
+    z-index: 10;
+}
+
 .navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  width: 100vw;
+  left: 50%;
+  transform: translateX(-50%);
   background: linear-gradient(180deg, #000000cd 60%, transparent 90%);
-  top: 0;
   position: fixed;
-  z-index: 1000;
+  top: 0;       
+  margin: 0;    
+  padding: 1rem 0; 
+  z-index: 9999;
+}
+nav.navbar ul.nav-links li a {
+    color: white !important;
+    -webkit-text-fill-color: white !important;
+    text-decoration: none !important;
 }
 
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 5vw;
   flex-wrap: nowrap;
+  justify-content: center;
+  margin-left: 3vw;
+  margin-right: 3vw;
 }
 
 .nav-links a {
-    font-size: 14px;
     letter-spacing: 1px;
     white-space: nowrap;
     color: white;
     text-decoration: none;
     font-size: 15px;
+    color: white;
+    -webkit-text-fill-color: white;
 }
 
 
