@@ -10,24 +10,14 @@ import Contact from "../components/Contact"
 export default function Home() {
   return (
     <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-        <Block />
-
-        <About />
-
-        <Events />
-
-        <div>
-          <Fields />
-
-          <Researchers />
-
-          <Advisors />
-
-          <FAQs />
-
-          <Contact />
-        </div>
-
-    </div>
+    <Block />
+    <About />
+    <Events />
+    <Fields />
+    <Researchers/>
+    <Advisors />
+    <FAQs />
+    <Contact />
+  </div>
   );
 }

@@ -4,3 +4,49 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+h1,
+h2 {
+  width: 100%;
+ background: linear-gradient(135deg, #7ee8ff 20%, #159df8 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+button {
+    padding: 2% 3%;
+    position: relative;
+    background: #111;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    color: white;
+    transition: 0.4s ease;
+}
+
+button::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 999px;
+    padding: 2px;
+    background: linear-gradient(135deg, #7ee8ff, #159df8);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box,
+                  linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+}
+
+button span {
+    background: linear-gradient(135deg, #7ee8ff, #159df8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+button:hover {
+    filter: brightness(0.6);
+}

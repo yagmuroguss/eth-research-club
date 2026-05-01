@@ -28,13 +28,13 @@ export default function Block() {
       </div>
 
       <div className="advertising-main" style={{marginTop: '35%'}}>
-          <h2>
+          <h1>
             <span style={{display: 'block', marginLeft: '5%', fontSize: '2em'}}>Create.</span>
-            <span style={{display: 'block', marginLeft: '36%', fontSize: '2em'}}>Explain.</span>
-            <span style={{display: 'block', marginLeft: '55%', fontSize: '2em'}}>Question.</span>
-          </h2>
+            <span style={{display: 'block', marginLeft: '10%', fontSize: '2em'}}>Explain.</span>
+            <span style={{display: 'block', marginLeft: '15%', fontSize: '2em'}}>Question.</span>
+          </h1>
           <p>A student-led research community driven by transforming curiosity into evidence-based work.</p>
-          <button className="member-button">Become a Member</button>
+          <button className="member-button"><span>Become a Member</span></button>
       </div>
   </div>
   );
