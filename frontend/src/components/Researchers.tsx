@@ -22,7 +22,7 @@ export default function Researchers() {
     return(
         <section id="researchers">
             <div className="researchers-box">
-                <h2 style={{color: 'white'}}>RESEARCHERS</h2>
+                <h2 style={{color: 'white', textAlign: 'center'}}>Researchers</h2>
                 <div className="researchers-filter">
                     <button className="research-button"><span>All</span></button>
                     <button className="research-button"><span>Field 1</span></button>

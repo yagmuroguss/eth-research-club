@@ -13,7 +13,7 @@ export default function Events() {
     return(
         <section id="events">
             <div className="events-block">
-                <h1 >Events</h1>
+                <h2>Events</h2>
                 <div className = "news-grid">
                     {eventgrid.map((eventunit) => (
                         <div className ="events" key = {eventunit.date}>
