@@ -17,7 +17,7 @@ export default function Footer() {
     return(
         <section id="contact">
             <div className = "block-contact">
-                <h1>ETH Research Club</h1>
+                <h3>ETH Research Club</h3>
                 <div className = "emails-contact">
                     <p> Contact : research-club-eth@ethz.ch </p>
                 </div>
@@ -34,16 +34,14 @@ export default function Footer() {
                 </div>
             </div>
             <div className = "newsletter">
+                <h3> Subscribe to our newsletter </h3>
                 <div className="newsletter-form">
-                    <h2> Subscribe to our newsletter </h2>
                     <input type="email" placeholder="email@ethz.ch" />
-                    <button>Subscribe</button>
+                    <button className = "btn-white">Subscribe</button>
                 </div>
             </div>
             <div className = "legalmentions">
-                <a href = "legal-disclaimer"    >
-                    <h3> Legal Disclaimer </h3>
-                </a>
+                <a href="legal-disclaimer">Legal Disclaimer</a>
             </div>
         </section>
     );

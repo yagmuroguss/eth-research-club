@@ -1,8 +1,9 @@
 body {
-  background-color: rgb(0, 0, 0);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    background-color: rgb(0, 0, 0);
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
 }
 
 h1,
@@ -49,4 +50,21 @@ button span {
 
 button:hover {
     filter: brightness(0.6);
+}
+
+.btn-white {
+    background: white;
+    border-radius: 999px;
+    color: black;
+    border: 1px solid white;
+}
+
+.btn-white::before {
+    display: none; /* enlève le contour dégradé */
+}
+
+.btn-white span {
+    background: none;
+    -webkit-text-fill-color: black;
+    color: black;
 }
