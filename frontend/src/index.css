@@ -73,7 +73,7 @@ button:hover {
 }
 
 .btn-white::before {
-    display: none; /* enlève le contour dégradé */
+    display: none;
 }
 
 .btn-white span {
