@@ -1,7 +1,7 @@
 import Block from "../components/Block"
 import About from "../components/About"
 import Events from "../components/Events"
-import Fields from "../components/Fields"
+import Publications from "../components/Publications"
 import Researchers from "../components/Researchers"
 import Advisors from "../components/Advisors"
 import FAQs from "../components/FAQs"
@@ -13,12 +13,11 @@ export default function Home() {
         <Block />
         <About />
         <Events />
-        <Fields />
+        <Publications />
         <Researchers />
         <Advisors />
         <FAQs />
         <Footer />
-
     </div>
   );
 }

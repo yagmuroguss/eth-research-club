@@ -18,7 +18,7 @@ export default function Navbar() {
             <ul className={`nav-links ${isOpen ? 'active' : ''}`}>
                 <li><a href="#about">About</a></li>
                 <li><a href="#events">Events</a></li>
-                <li><a href="#fields">Fields</a></li>
+                <li><a href="#publications">Publications</a></li>
                 <li><a href="#researchers">Student Researchers</a></li>
                 <li><a href="#advisors">Advisors</a></li>
                 <li><a href="#faqs">FAQs</a></li>

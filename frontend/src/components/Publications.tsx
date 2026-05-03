@@ -1,4 +1,4 @@
-import "./fields.css"
+import "./publications.css"
 import stonksy from "../assets/stonksy.webp"
 
 const fieldslist = [
@@ -9,8 +9,8 @@ const fieldslist = [
 
 export default function Fields() {
     return(
-        <section id="fields">
-            <h2>Fields</h2>
+        <section id="publications">
+            <h2>Publications</h2>
             <div className = "field-box">
                 {fieldslist.map((fieldunit) =>
                     <div key = {fieldunit.alt}>
