@@ -8,7 +8,7 @@ export default function About() {
                 <img src = {shrek} alt = "about-picture" style={{width: '50%', marginRight: 'auto'}}/>
                 <div className="inner-about-block">
                     <h2 style={{marginBottom: '2%'}}>About</h2>
-                    <p style={{marginTop: '0px'}}>A student-led research community driven by transforming curiosity into evidence-based work.</p>
+                    <p style={{marginTop: '0px'}}>A student organization exploring computer graphics and visualization through collaborative projects and academic work. We host student projects advised by industry professionals and connect students with research and industry opportunities.</p>
                 </div>
             </div>
         </section>

@@ -1,21 +1,24 @@
-import "./publications.css"
+import "./projects.css"
 import stonksy from "../assets/stonksy.webp"
+import brain from "../assets/brain.jpeg"
 
 const fieldslist = [
-    {img : stonksy, alt : "monimg1", fieldname : "fieldname1"},
-    {img : stonksy, alt : "monimg2", fieldname : "fieldname2"},
-    {img : stonksy, alt : "monimg3", fieldname : "fieldname3"}
+    {img : brain, alt : "brain", projectname : "Rotating Brain using WebGPU", description : "We design a rotating brain for our website using WebGPU."},
+    {img : stonksy, alt : "monimg2", projectname : "fieldname2", description : "hello"},
+    {img : stonksy, alt : "monimg3", projectname : "fieldname3", description : "hello"}
 ]
 
-export default function Fields() {
+export default function Projects() {
     return(
-        <section id="publications">
-            <h2>Publications</h2>
-            <div className = "field-box">
-                {fieldslist.map((fieldunit) =>
-                    <div key = {fieldunit.alt}>
-                        <img src = {fieldunit.img} alt = {fieldunit.alt}></img>
-                        <h3>{fieldunit.fieldname}</h3>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div className = "project-box">
+                {fieldslist.map((project) =>
+                    <div key = {project.alt}>
+                        <img src = {project.img} alt = {project.alt}></img>
+                        <h3>{project.projectname}</h3>
+                        <p>{project.description}</p>
+                        <button><span>See Details</span></button>
                     </div>
                 )}
             </div>

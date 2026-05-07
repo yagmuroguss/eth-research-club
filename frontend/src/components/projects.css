@@ -1,4 +1,4 @@
-section#publications {
+section#projects {
     width: 75vw;
     display: flex;
     flex-direction: column;
@@ -7,17 +7,17 @@ section#publications {
     text-align: center;
 }
 
-section#fields h2,section#publications p {
+section#projects h2,section#publications p {
     width: auto;
     margin-top: 2vw;
 }
 
-.field-box {
+.project-box {
     display: flex;
     justify-content: space-between;
 }
 
-.field-box img {
+.project-box img {
     width: 20vw;
 }
 

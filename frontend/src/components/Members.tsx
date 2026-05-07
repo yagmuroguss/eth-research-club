@@ -1,4 +1,4 @@
-import "./researchers.css"
+import "./members.css"
 import stonksy from '../assets/stonksy.webp';
 
 export default function Researchers() {
@@ -7,7 +7,7 @@ export default function Researchers() {
         {field: "Field 2"}
     ]
 
-    const researchers = [
+    const members = [
         {name: "Student One", img: stonksy, position: "position", major: "major", field: "field"},
         {name: "Student One", img: stonksy, position: "position", major: "major", field: "field"},
         {name: "Student One", img: stonksy, position: "position", major: "major", field: "field"},
@@ -20,21 +20,21 @@ export default function Researchers() {
     ]
 
     return(
-        <section id="researchers">
+        <section id="members">
             <h2 style={{color: 'white', textAlign: 'center', marginBottom: '3vw'}}>Members</h2>
-                <div className="researchers-filter">
-                    <button className="research-button"><span>All</span></button>
-                    <button className="research-button"><span>Board Members</span></button>
-                    <button className="research-button"><span>Education Team</span></button>
-                    <button className="research-button"><span>Event Coordination Team</span></button>
-                    <button className="research-button"><span>Media Team</span></button>
-                    <button className="research-button"><span>Finance Team Team</span></button>
-                    <button className="research-button"><span>Membership Team</span></button>
+                <div className="members-filter">
+                    <button className="filter-button"><span>All</span></button>
+                    <button className="filter-button"><span>Board Members</span></button>
+                    <button className="filter-button"><span>Education Team</span></button>
+                    <button className="filter-button"><span>Event Coordination Team</span></button>
+                    <button className="filter-button"><span>Media Team</span></button>
+                    <button className="filter-button"><span>Finance Team Team</span></button>
+                    <button className="filter-button"><span>Membership Team</span></button>
                 </div>
-            <div className="researchers-box">
+            <div className="member-box">
                 <div className="team-members">
-                    {researchers.map((students) => (
-                        <div className="student-researchers">
+                    {members.map((students) => (
+                        <div className="student-members">
                             <img src={students.img} alt={students.name}/>
                             <h3>{students.name}</h3>
                             <h6>{students.major}</h6>
