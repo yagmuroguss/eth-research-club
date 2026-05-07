@@ -1,7 +1,7 @@
 import Block from "../components/Block"
 import About from "../components/About"
 import Events from "../components/Events"
-import Publications from "../components/Publications"
+import Projects from "../components/Projects"
 import Researchers from "../components/Researchers"
 import Advisors from "../components/Advisors"
 import FAQs from "../components/FAQs"
@@ -13,7 +13,7 @@ export default function Home() {
         <Block />
         <About />
         <Events />
-        <Publications />
+        <Projects />
         <Researchers />
         <Advisors />
         <FAQs />

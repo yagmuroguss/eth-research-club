@@ -21,13 +21,15 @@ export default function Researchers() {
 
     return(
         <section id="researchers">
-            <h2 style={{color: 'white', textAlign: 'center', marginBottom: '3vw'}}>Researchers</h2>
+            <h2 style={{color: 'white', textAlign: 'center', marginBottom: '3vw'}}>Members</h2>
                 <div className="researchers-filter">
                     <button className="research-button"><span>All</span></button>
-                    <button className="research-button"><span>Field 1</span></button>
-                    <button className="research-button"><span>Field 2</span></button>
-                    <button className="research-button"><span>Field 3</span></button>
-                    <button className="research-button"><span>Field 4</span></button>
+                    <button className="research-button"><span>Board Members</span></button>
+                    <button className="research-button"><span>Education Team</span></button>
+                    <button className="research-button"><span>Event Coordination Team</span></button>
+                    <button className="research-button"><span>Media Team</span></button>
+                    <button className="research-button"><span>Finance Team Team</span></button>
+                    <button className="research-button"><span>Membership Team</span></button>
                 </div>
             <div className="researchers-box">
                 <div className="team-members">
