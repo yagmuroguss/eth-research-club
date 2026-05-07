@@ -1,14 +1,14 @@
 import "./faqs.css"
 
 const faq = [
-    {question : "Lorem ipsum dolor sit amet consectetur adipiscing elit ?", 
-    answer : "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos."},
-    {question : "Lorem ipsum dolor sit amet consectetur adipiscing elit ?", 
-    answer : "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos."},
-    {question : "Lorem ipsum dolor sit amet consectetur adipiscing elit ?", 
-    answer : "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos."},
-    {question : "Lorem ipsum dolor sit amet consectetur adipiscing elit ?", 
-    answer : "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos."}
+    {question : "Are there any prerequisites I should have before applying to the research club ?", 
+    answer : "None except motivation. Everything is provided by the club."},
+    {question : "Which research fields does the club cover ?", 
+    answer : "The different fields are listed above on this page. Depending on the effective, it is possible to propose your own project."},
+    {question : "What if I don't like the research project I'm working in ?", 
+    answer : "If possible, first finish the project. Otherwise, you can contact the administration of the club per mail : MAILCLUB."},
+    {question : "How much time should I invest in the club ?", 
+    answer : " We expect you to invest between 6 and 10 hours a week if you are taking part in a project. Each project will take 6 to 12 months. Concerning the different activity fields, you can consider these weekly approximations : "}
 ]
 
 export default function FAQs() {
@@ -22,6 +22,13 @@ export default function FAQs() {
                         <p> {faqunit.answer} </p>
                     </div>
                 ))}
+                <div className = "approximations">
+                    <p> - Media : 3 hours </p>
+                    <p> - Membership : 3 hours </p>
+                    <p> - Education : 4 hours </p>
+                    <p> - Finances : 4 hours </p>
+                    <p> - Event coordination : 5 hours </p>
+                </div>
             </div>
         </section>
     );

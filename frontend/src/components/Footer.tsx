@@ -33,13 +33,13 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <div className = "newsletter">
+            {/* <div className = "newsletter">
                 <h3> Subscribe to our newsletter </h3>
                 <div className="newsletter-form">
                     <input type="email" placeholder="email@ethz.ch" />
                     <button className = "btn-white">Subscribe</button>
                 </div>
-            </div>
+            </div> */}
             <div className = "legalmentions">
                 <a href="legal-disclaimer">Legal Disclaimer</a>
             </div>

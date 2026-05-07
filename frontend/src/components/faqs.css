@@ -18,3 +18,12 @@ section#faqs {
     font-size: 1vw;
     margin-bottom: 1vw;
 }
+
+.approximations {
+    margin-left : 1vw;
+    margin-top: -3vw;
+}
+
+.approximations p {
+    margin-bottom: -0.5vw;
+}
