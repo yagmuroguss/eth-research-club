@@ -1,6 +1,14 @@
 .events-block {
     width: 74vw;
     margin-bottom: 7vw;
+    align-items: center;
+    text-align: center;
+}
+
+.events-block h2 {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 2%
 }
 
 .news-grid {
@@ -16,6 +24,18 @@
 
 .events {
     background-color: black;
+}
+
+.events-link {
+  text-decoration: none;
+  color: #38bff8f6;
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.events-link:hover {
+  transform: translateX(4px);
+  color: inherit;
 }
 
 @media (max-width: 768px) {

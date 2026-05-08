@@ -1,5 +1,6 @@
 import stonksy from '../assets/stonksy.webp';
 import "./events.css";
+import { Link } from 'react-router-dom';
 
 export default function Events() {
     const eventgrid = [
@@ -13,7 +14,7 @@ export default function Events() {
     return(
         <section id="events">
             <div className="events-block">
-                <h2>Events</h2>
+                <Link to="/events-page" className="events-link"><h2>Events {"»"}</h2></Link>
                 <div className = "news-grid">
                     {eventgrid.map((eventunit) => (
                         <div className ="events" key = {eventunit.date}>
