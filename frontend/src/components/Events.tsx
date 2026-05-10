@@ -17,7 +17,7 @@ export default function Events() {
                 <Link to="/events-page" className="events-link"><h2>Events {"»"}</h2></Link>
                 <div className = "news-grid">
                     {eventgrid.map((eventunit) => (
-                        <div className ="events" key = {eventunit.date}>
+                        <div className ="event-card" key = {eventunit.date}>
                             <h3 style={{textAlign: 'center'}}>{eventunit.name}</h3>
                             <img src={eventunit.img} alt={eventunit.name} />
                             <p>{eventunit.date}</p>

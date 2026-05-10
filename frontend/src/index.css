@@ -80,6 +80,11 @@ button:hover {
     color: black;
 }
     
-@media (max-width: 768px) {
-    
+@media (max-width: 768px){
+    html, body {
+    margin: 0;
+    padding: 1vw;
+    width: 100%;
+    overflow-x: hidden;
+}
 }

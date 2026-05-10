@@ -7,7 +7,7 @@ export default function Block() {
     <div className="main-block">
       <Navbar />
 
-      <div className="advertising-main" style={{marginTop: '35%'}}>
+      <div className="advertising-main" style={{marginTop: '11vw'}}>
           <h1>
             <span style={{display: 'block', marginLeft: '5%', fontSize: '2em'}}>Code.</span>
             <span style={{display: 'block', marginLeft: '10%', fontSize: '2em'}}>Render.</span>

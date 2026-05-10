@@ -26,10 +26,12 @@ export default function Researchers() {
                     <button className="filter-button"><span>All</span></button>
                     <button className="filter-button"><span>Board Members</span></button>
                     <button className="filter-button"><span>Education Team</span></button>
-                    <button className="filter-button"><span>Event Coordination Team</span></button>
-                    <button className="filter-button"><span>Media Team</span></button>
-                    <button className="filter-button"><span>Finance Team</span></button>
-                    <button className="filter-button"><span>Membership Team</span></button>
+                    <button className="filter-button"><span>Event Team</span></button>
+                    <div className = "low-phone-buttons">
+                        <button className="filter-button"><span>Media Team</span></button>
+                        <button className="filter-button"><span>Finance Team</span></button>
+                        <button className="filter-button"><span>Membership Team</span></button>
+                    </div>
                 </div>
             <div className="member-box">
                 <div className="team-members">

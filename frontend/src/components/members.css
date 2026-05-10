@@ -1,23 +1,30 @@
-.member-box {
-    width: 75vw;
+section#members {
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-sizing: border-box;
-    padding: 2% 0%;
+}
+
+.member-box {
+  width: 75vw;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .members-filter {
     display: flex;
-    flex-wrap: wrap;
     gap: 3%;
     align-items: center;
     justify-content: center;
     row-gap: 2%;
+    margin-bottom: 3vw;
 }
 
 .filter-button {
     padding: 0.3rem 0.8rem;
+    width: 10vw;
+    height: 2.8vw;
 }
 
 .member-box button {
@@ -30,13 +37,17 @@
     transition: 0.4s ease;
 }
 
+.low-phone-buttons {
+    display: contents;
+}
+
 .team-members {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    align-items: center;
     width: 100%;
     box-sizing: border-box;
-    gap: 6% 1%;
+    gap: 2vw;
+    align-items: stretch;
 }
 
 .student-members {
@@ -47,8 +58,6 @@
     padding: 7%;
     background-color: rgba(21, 21, 21, 0.599);
     border-radius: 10px;
-    height: 28vh;
-    width: 10vw;
     position: relative;
 }
 
@@ -86,18 +95,66 @@ color: white !important;
 }
 
 .student-members img {
-    width: 7vw;
+    width: 60%;    
+    max-width: 100px;
     border-radius: 100%;
     object-fit: cover;
     aspect-ratio: 1/1;
 }
 
 @media (max-width: 768px) {
-    .team-members {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        align-items: center;
+
+    section#members {
+        display: flex;
         width: 100%;
-        box-sizing: border-box;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
+
+    .member-box {
+    width: 100%;
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+    .team-members {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 3vw;
+    }
+
+    .student-members {
+        height: auto;
+        margin-bottom: 3vw;
+    }
+
+    .members-filter button {
+        width: 22vw;
+        min-width:10vw;
+        height: 12vw;
+    }
+
+    .low-phone-buttons button {
+        width: 25vw;
+    }
+
+    .low-phone-buttons {
+        justify-content: space-between !important;
+    }
+
+
+  .members-filter {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3vw;
+    row-gap: 3vw;
+  }
+
+  .filter-button {
+    width: 100%;
+    min-width: 0;
+  }
+
 }

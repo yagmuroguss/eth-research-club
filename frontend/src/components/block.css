@@ -1,5 +1,7 @@
+
+
 h1 {
-  padding-bottom: 4%;
+  font-size: 4vw;
 }
 
 .main-block {
@@ -19,6 +21,8 @@ h1 {
   font-size: 210%;
   color: white;
 }
+
+
 
 /* FOR EVENTS */
 section#events {
@@ -47,4 +51,24 @@ section#events h1 {
   width: 100%;
   align-items: center;
   justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .advertising-main h1 {
+    font-size : 7vw;
+    margin-bottom: 50vw;
+  }
+
+  .main-block {
+    margin-top: 50vw;
+    margin-bottom: 40vw;
+  }
+
+  .advertising-main button span {
+    font-size : 4.5vw;
+  }
+
+  .advertising-main button  {
+    height: 13vw;
+  }
 }

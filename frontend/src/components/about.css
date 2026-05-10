@@ -4,6 +4,11 @@ section#about{
   margin-bottom: 5vw;
 }
 
+.about-picture-class {
+  width: 50%;
+  margin-right: auto;
+}
+
 section#about h1 {
   font-family: 'Conthrax', sans-serif;
   width: 100%;
@@ -17,4 +22,23 @@ section#about h1 {
   align-items: center;
   margin-top: 10%;
   width: 74vw;
+}
+
+@media (max-width: 768px) {
+  .about-block {
+    margin-top: 17vw;
+    flex-direction: column-reverse;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+
+  .about-picture-class {
+  width: 100vw;
+  margin-right: auto;
+  display: block;
+    margin: 0 auto;
+    margin-bottom: 8vw;
+}
 }

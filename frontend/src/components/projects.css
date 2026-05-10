@@ -27,7 +27,7 @@ section#projects h2,section#publications p {
   align-items: start;
   gap: 6% 3%;
   width: 100%;
-  padding: 20px;
+  margin-bottom: 10vw;
 }
 
 .project-box p {
@@ -47,7 +47,7 @@ section#projects h2,section#publications p {
     border-radius: 10px;
     min-width: 0;
     position: relative;
-    height: 45vh; 
+    height: 100%;
 }
 
 .project::before {
@@ -66,6 +66,8 @@ section#projects h2,section#publications p {
 .project button,
 .project a {
   margin-top: auto;
+  height: 3vw;
+  width: 8vw;
 }
 
 .projects-link {
@@ -78,4 +80,27 @@ section#projects h2,section#publications p {
 .projects-link:hover {
   transform: translateX(4px);
   color: inherit;
+}
+
+@media (max-width: 768px) {
+  section#projects {
+    width: 100%;
+    padding: 5vw;
+  }
+  .project-box {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  align-items: start;
+  gap: 6% 3%;
+  width: 100%;
+  margin-bottom: 50vw;
+}
+
+.project button {
+  justify-content: center;
+  margin-bottom: 5vw;
+  margin-top: auto;
+  width: 30vw;
+  height: 10vw;
+}
 }

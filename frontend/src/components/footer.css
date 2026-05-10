@@ -78,3 +78,14 @@ section#contact {
     font-weight: normal;
     font-size: 1vw;
 }
+
+@media (max-width: 768px) {
+    .legalmentions a {
+        font-size : 3vw;
+    }
+    .logo-unit img {
+        width: 10vw;
+        height: auto;
+        margin-top: 5vw;
+    }
+}

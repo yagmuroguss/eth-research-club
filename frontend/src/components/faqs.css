@@ -14,9 +14,8 @@ section#faqs {
     margin-bottom: 5vw;
 }
 
-.faq-unit p {
-    font-size: 1vw;
-    margin-bottom: 1vw;
+.faq-question {
+    font-size : 2vw;
 }
 
 .approximations {
@@ -26,4 +25,26 @@ section#faqs {
 
 .approximations p {
     margin-bottom: -0.5vw;
+}
+
+@media (max-width: 768px){
+    section#faqs {
+        gap: 0 !important;
+        width: 100%;
+    }
+    .q-and-a p {
+        font-size : 3.5vw;
+    }
+    .faq-answer {
+
+    }
+
+    .faq-question {
+        font-size : 5.5vw !important;
+        margin-bottom: 1vw;
+    }
+
+    .faq-unit {
+        margin-bottom: 14vw;
+    }
 }
