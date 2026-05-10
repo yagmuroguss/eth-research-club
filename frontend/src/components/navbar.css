@@ -59,31 +59,30 @@ nav.navbar ul.nav-links li a {
   width: 25px;
 }
 
-.hamburger-bar {
-  display: block;
-  width: 25px;
-  height: 3px;
-  background-color: white;
-  border-radius: 2px;
-  transition: all 0.3s ease;
-}
 
 @media (max-width: 768px) {
   .navbar {
     padding: 5% 7%;
+    display: flex;     
+  align-items: center;   
+  justify-content: space-between;
   }
 
   .navbar-phone {
     display: flex;
+    margin-right: auto;
+    margin-left: 7vw;
   }
 
   .nav-links {
     flex-direction: column;
     position: fixed;
-    top: 4%;
-    left: 0;
-    width: 100%;
-    background-color: black;
+    top: 50%;
+    left: 7vw;
+    width: 18%;
+    background: transparent;
+    text-decoration: underline;
+    text-underline-offset: 2px;
     text-align: center;
     gap: 0;
     max-height: 0;
@@ -94,6 +93,10 @@ nav.navbar ul.nav-links li a {
     transition: max-height 0.4s ease, opacity 0.4s ease, visibility 0.4s ease;
   }
 
+  .nav-links a {
+    font-size: 4.5vw;
+  }
+
   .nav-links.active {
     max-height: 400px;
     visibility: visible;
@@ -101,6 +104,18 @@ nav.navbar ul.nav-links li a {
   }
 
   .nav-links li {
-    padding: 12px 0;
+    padding: 7px 0;
+  }
+
+  .navbar img {
+    margin-top: -2.1vw;
+  }
+
+  .hamburger-bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    border-radius: 2px;
+    transition: all 0.3s ease;
   }
 }
