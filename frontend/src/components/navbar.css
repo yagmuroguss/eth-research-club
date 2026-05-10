@@ -34,6 +34,7 @@ nav.navbar ul.nav-links li a {
   justify-content: center;
   margin-left: 3vw;
   margin-right: 3vw;
+  list-style: none;
 }
 
 .nav-links a {
@@ -80,7 +81,7 @@ nav.navbar ul.nav-links li a {
     top: 50%;
     left: 7vw;
     width: 18%;
-    background: transparent;
+    background: linear-gradient(180deg, #000000f5 70%, #00000010 100%);
     text-decoration: underline;
     text-underline-offset: 2px;
     text-align: center;
